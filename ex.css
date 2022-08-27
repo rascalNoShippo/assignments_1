@@ -72,3 +72,20 @@ section p{
   top: 0;
   left: 0;
 }
+
+
+@media screen and (max-width: 768px){
+ main, section{
+   display: block;
+ }
+
+ main{
+   width: 100%;
+ }
+
+ section{
+   width: 90%;
+   margin: 20px auto !important;
+ }
+ 
+}
